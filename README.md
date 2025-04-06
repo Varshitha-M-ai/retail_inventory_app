@@ -23,6 +23,11 @@ A smart retail optimization system using multi-agent architecture and Gen AI (Ge
    ```bash
     uvicorn backend.main:app --reload
 
+4. **Start Streamlit app**
+```bash
+streamlit run ui/app.py
+```
+
 **requirements.txt**
 ```bash
 streamlit
@@ -38,7 +43,7 @@ ollama
 ```
 RETAIL_INVENTORY_APP/
 ├── backend/
-│   └── main.py                 
+│   └── main.py                 # FastAPI app
 │
 ├── agents/
 │   ├── demand_agent.py
@@ -47,10 +52,10 @@ RETAIL_INVENTORY_APP/
 │   └── warehouse_agent.py
 │
 ├── ui/
-│   └── app.py                 
+│   └── app.py                  # Streamlit dashboard
 │
 ├── chatbot/
-│   └── bot.py                  
+│   └── bot.py                  # Ollama-powered chatbot
 │
 ├── data/
 │   ├── inventory_monitoring.csv
