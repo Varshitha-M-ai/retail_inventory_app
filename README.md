@@ -23,41 +23,43 @@ A smart retail optimization system using multi-agent architecture and Gen AI (Ge
    ```bash
     uvicorn backend.main:app --reload
 
-4. **Start Streamlit app**
-   ```bash
-    streamlit run ui/app.py
+**requirements.txt**
+```bash
+streamlit
+fastapi
+uvicorn
+pandas
+plotly
+requests
+ollama
+```
 
- **requirements.txt**
-   ```bash
-    streamlit
-    fastapi
-    uvicorn
-    pandas
-    plotly
-    requests
-    ollama
-
- **Code Structure**
-   ```bash
-   RETAIL_INVENTORY_APP/
+**Code Structure**
+```
+RETAIL_INVENTORY_APP/
+├── backend/
+│   └── main.py                 
+│
 ├── agents/
 │   ├── demand_agent.py
 │   ├── pricing_agent.py
 │   ├── store_agent.py
 │   └── warehouse_agent.py
-├── api/
-│   └── main.py
-├── chatbot/
-│   └── bot.py
-├── data/
-│   ├── demand_forecasting.csv
-│   ├── inventory_monitoring.csv
-│   └── pricing_optimization.csv
+│
 ├── ui/
-│   └── app.py
-├── utils/
-│   └── database.py
+│   └── app.py                 
+│
+├── chatbot/
+│   └── bot.py                  
+│
+├── data/
+│   ├── inventory_monitoring.csv
+│   ├── demand_forecasting.csv
+│   └── pricing_optimization.csv
+│
 ├── requirements.txt
+└── README.md
+```
 
 
 
