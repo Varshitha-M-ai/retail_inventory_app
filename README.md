@@ -43,7 +43,7 @@ ollama
 ```
 RETAIL_INVENTORY_APP/
 ├── backend/
-│   └── main.py                 # FastAPI app
+│   └── main.py                
 │
 ├── agents/
 │   ├── demand_agent.py
@@ -52,10 +52,10 @@ RETAIL_INVENTORY_APP/
 │   └── warehouse_agent.py
 │
 ├── ui/
-│   └── app.py                  # Streamlit dashboard
+│   └── app.py                  
 │
 ├── chatbot/
-│   └── bot.py                  # Ollama-powered chatbot
+│   └── bot.py                  
 │
 ├── data/
 │   ├── inventory_monitoring.csv
