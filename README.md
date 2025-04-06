@@ -14,24 +14,28 @@ A smart retail optimization system using multi-agent architecture and Gen AI (Ge
 1. **Install dependencies**
    ```bash
     pip install -r requirements.txt
-2.**Run Ollama with Gemma**
-   ```bash
-    llama run gemma:2b
-3.**Start FastAPI backend**
-```bash
-   uvicorn backend.main:app --reload
-4.**Start Streamlit app**
-```bash
-  streamlit run ui/app.py
 
-##requirements.txt
-```bash
-streamlit
-fastapi
-uvicorn
-pandas
-plotly
-requests
-ollama
+2. **Run Ollama with Gemma**
+   ```bash
+    ollama run gemma:2b
+
+3. **Start FastAPI backend**
+   ```bash
+    uvicorn backend.main:app --reload
+
+4. **Start Streamlit app**
+   ```bash
+    streamlit run ui/app.py
+
+ **requirements.txt**
+   ```bash
+    streamlit
+    fastapi
+    uvicorn
+    pandas
+    plotly
+    requests
+    ollama
+
 
 
