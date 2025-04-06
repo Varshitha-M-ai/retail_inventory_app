@@ -37,8 +37,7 @@ A smart retail optimization system using multi-agent architecture and Gen AI (Ge
     requests
     ollama
 
-1. **Code Structure**
-   ```bash
+##Code Structure**
     RETAIL_INVENTORY_APP/
 ├── agents/
 │   ├── demand_agent.py
