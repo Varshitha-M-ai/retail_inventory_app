@@ -42,7 +42,7 @@ ollama
 **Code Structure**
 ```
 RETAIL_INVENTORY_APP/
-├── backend/
+├── api/
 │   └── main.py                
 │
 ├── agents/
